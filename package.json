@@ -1,0 +1,19 @@
+{
+  "name": "terraform-scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cheerio": "^0.22.5",
+    "@types/lodash": "^4.14.85",
+    "@types/node": "^8.0.53",
+    "cheerio": "^0.22.0",
+    "lodash": "^4.17.4",
+    "marked": "^0.3.6"
+  }
+}
