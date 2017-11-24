@@ -8,3 +8,6 @@ This is only attempting to scrape from the AWS provider code. I haven't tried on
 `docker run -ti dirkdirk/terraform-scrape`
 
 This will output any notices to stderr and output the json that needs to go in terraform-autocomplete/aws-resources.json to stdout. So you could do something like `docker run -ti dirkdirk/terraform-scrape > ../terraform-autocomplete/aws-resources.json`
+
+## TODO
+* Args reference is wrong in aws_iam_role (https://www.terraform.io/docs/providers/aws/r/iam_role.html) because of the `div.alert-warning` in the middle of the list.
